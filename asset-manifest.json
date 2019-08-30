@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kevin-portfolio/static/css/main.2cce8147.chunk.css",
+    "main.js": "/kevin-portfolio/static/js/main.4a69e7c8.chunk.js",
+    "main.js.map": "/kevin-portfolio/static/js/main.4a69e7c8.chunk.js.map",
+    "runtime~main.js": "/kevin-portfolio/static/js/runtime~main.8ef74be9.js",
+    "runtime~main.js.map": "/kevin-portfolio/static/js/runtime~main.8ef74be9.js.map",
+    "static/js/2.b7f053e8.chunk.js": "/kevin-portfolio/static/js/2.b7f053e8.chunk.js",
+    "static/js/2.b7f053e8.chunk.js.map": "/kevin-portfolio/static/js/2.b7f053e8.chunk.js.map",
+    "index.html": "/kevin-portfolio/index.html",
+    "precache-manifest.d0cd095ecd8d01dd649ee7bbfedbe700.js": "/kevin-portfolio/precache-manifest.d0cd095ecd8d01dd649ee7bbfedbe700.js",
+    "service-worker.js": "/kevin-portfolio/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/kevin-portfolio/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/kevin-portfolio/static/media/logo.5d5d9eef.svg"
+  }
+}
