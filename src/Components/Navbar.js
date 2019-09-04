@@ -2,15 +2,16 @@ import React, { Component } from 'react'
 import { Sidebar, Image } from 'semantic-ui-react'
 
 const imageSize = {
-    width: '10%',
-    height: '10%'
+    width: '7%',
+    borderRadius: '50%',
+    margin: '20px'
 }
 
 class Navbar extends Component {
     render(){
         return(
             <Sidebar>
-                <Image style={imageSize} src="https://i.imgur.com/XvATqw6.jpg" circular />
+                <Image style={imageSize} src="https://i.imgur.com/msfHhhH.jpg" />
             </Sidebar>
         )
     }
