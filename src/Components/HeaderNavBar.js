@@ -14,7 +14,7 @@ class HeaderNavBar extends Component {
                         <Segment vertical textAlign='center'><Icon name="medium" size="large" /></Segment>
                     </Grid.Column>
                     <Grid.Column width={14}>
-                        <Image src="https://i.imgur.com/b4dlPFL.png" size="medium" centered />
+                        <Image src="https://i.imgur.com/ORGXDR2.png" size="medium" centered />
                     </Grid.Column>
                     <Grid.Column width={1}>
                         <Segment vertical><h5>Home</h5></Segment>
