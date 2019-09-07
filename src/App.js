@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import HeaderNavBar from './Components/HeaderNavBar'
+import Home from './Components/Home'
+import Projects from './Components/Projects'
+import Skills from './Components/Skills'
 
 class App extends Component {
   render(){
     return(
-      <HeaderNavBar />
+      <>
+        <HeaderNavBar />
+        <Home />
+        <Skills />
+        <Projects />
+      </>
     )
   }
 }
