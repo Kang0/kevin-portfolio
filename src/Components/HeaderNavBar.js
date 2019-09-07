@@ -6,15 +6,15 @@ class HeaderNavBar extends Component {
     render(){
         return(
             <>
-                <Grid celled='internally'>
+                <Grid >
                     <Grid.Column width={1}>
-                        <Segment vertical><Icon name="linkedin" size="large" /></Segment>
-                        <Segment vertical><Icon name="github" size="large" /></Segment>
-                        <Segment vertical><Icon name="facebook" size="large" /></Segment>
-                        <Segment vertical><Icon name="medium" size="large" /></Segment>
+                        <Segment vertical textAlign='center'><Icon name="linkedin" size="large" /></Segment>
+                        <Segment vertical textAlign='center'><Icon name="github" size="large" /></Segment>
+                        <Segment vertical textAlign='center'><Icon name="facebook" size="large" /></Segment>
+                        <Segment vertical textAlign='center'><Icon name="medium" size="large" /></Segment>
                     </Grid.Column>
                     <Grid.Column width={14}>
-                        <Image src="https://i.imgur.com/KkUwuQx.png" size="medium" centered />
+                        <Image src="https://i.imgur.com/b4dlPFL.png" size="medium" centered />
                     </Grid.Column>
                     <Grid.Column width={1}>
                         <Segment vertical><h5>Home</h5></Segment>
