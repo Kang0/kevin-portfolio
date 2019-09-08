@@ -5,6 +5,7 @@ import HeaderNavBar from './Components/HeaderNavBar'
 import Home from './Components/Home'
 import Projects from './Components/Projects'
 import Skills from './Components/Skills'
+import Experience from './Components/Experience'
 
 class App extends Component {
   render(){
@@ -14,6 +15,7 @@ class App extends Component {
         <Home />
         <Skills />
         <Projects />
+        <Experience />
       </>
     )
   }
