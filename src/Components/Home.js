@@ -19,10 +19,10 @@ class Home extends Component {
         }
 
         return(
-            <div>
+            <div style={{height: '100vh'}}>
                 <Header as="h1" style={headerMargin}>Home</Header>
                 <Grid>
-                    <Grid.Row columns={2}>
+                    <Grid.Row columns={2} style={{height: '70%'}}>
                         <Grid.Column width={4}>
                             <Image src="https://i.imgur.com/msfHhhH.jpg" circular size="medium" style={imageMargin} />
                         </Grid.Column>
