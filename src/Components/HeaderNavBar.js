@@ -12,26 +12,18 @@ class HeaderNavBar extends Component {
 
         return(
             <div>
-                <Grid style={{height: '10vh'}} padded>
-                    <Grid.Column width={1}>
-                        <Segment.Group compact style={{height: '23vh'}}>
-                            <Segment basic textAlign='center'><Icon name="linkedin" size="large" /></Segment>
-                            <Segment basic textAlign='center'><Icon name="github" size="large" /></Segment>
-                            <Segment basic textAlign='center'><Icon name="facebook" size="large" /></Segment>
-                            <Segment basic textAlign='center'><Icon name="medium" size="large" /></Segment>
-                        </Segment.Group>
+                <Grid style={{height: '5vh'}} padded>
+                    <Grid.Column width={3}>
+                            <Icon name="linkedin" size="large" />
+                            <Icon name="github" size="large" />
+                            <Icon name="facebook" size="large" />
+                            <Icon name="medium" size="large" />
                     </Grid.Column>
-                    <Grid.Column width={14}>
+                    <Grid.Column width={10}>
                         <Image src="https://i.imgur.com/ORGXDR2.png" centered size="medium" />
                     </Grid.Column>
-                    <Grid.Column width={1}>
-                        <Segment.Group floated='right'>
-                            <Segment basic><h5>Home</h5></Segment>
-                            <Segment basic><h5>Projects</h5></Segment>
-                            <Segment basic><h5>Skills</h5></Segment>
-                            <Segment basic><h5>Experience</h5></Segment>
-                            <Segment basic><h5>Contact</h5></Segment>
-                        </Segment.Group>
+                    <Grid.Column width={3}>
+                        <p>Home // Skills // Projects // Experience</p>
                     </Grid.Column>
                 </Grid>
                 <Divider />

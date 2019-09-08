@@ -25,14 +25,14 @@ class Home extends Component {
                         <Grid.Column width={4}>
                             <Image src="https://i.imgur.com/msfHhhH.jpg" circular size="medium" style={imageMargin} />
                         </Grid.Column>
-                        <Grid.Column width={12}>
+                        <Grid.Column width={12} style={{marginTop: '10vh'}}>
                             <h1 style={textMargin}>I'm Kevin Kang</h1>
                             <br></br>
                             <h2 style={textMargin}>Fullstack Web Developer</h2>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
-                        <Grid.Column centered style={{marginTop: '11vh'}}>
+                        <Grid.Column centered style={{marginTop: '10vh'}}>
                             <Container textAlign='center'>
                                 <Icon name="angle double down" size="massive" textAlign="center" />
                             </Container>

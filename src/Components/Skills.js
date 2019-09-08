@@ -12,7 +12,7 @@ class Skills extends Component {
             fontSize: '10em'
         }
         return(
-            <div style={{height: '100vh'}}>
+            <div style={{height: '40vh'}}>
                 <h1 style={headerMargin}>Skills</h1>
                 <br></br>
                 <Container>
