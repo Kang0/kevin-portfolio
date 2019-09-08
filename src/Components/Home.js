@@ -10,7 +10,7 @@ class Home extends Component {
         }
 
         const imageMargin = {
-            marginLeft: '30em'
+            marginLeft: '25vh'
         }
 
         const textMargin = {
@@ -19,10 +19,9 @@ class Home extends Component {
         }
 
         return(
-            <div style={{height: '100vh'}}>
-                <Header as="h1" style={headerMargin}>Home</Header>
+            <div style={{marginTop: '30vh'}}>
                 <Grid>
-                    <Grid.Row columns={2} style={{height: '70%'}}>
+                    <Grid.Row columns={2}>
                         <Grid.Column width={4}>
                             <Image src="https://i.imgur.com/msfHhhH.jpg" circular size="medium" style={imageMargin} />
                         </Grid.Column>
@@ -33,7 +32,7 @@ class Home extends Component {
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
-                        <Grid.Column centered>
+                        <Grid.Column centered style={{marginTop: '11vh'}}>
                             <Container textAlign='center'>
                                 <Icon name="angle double down" size="massive" textAlign="center" />
                             </Container>
