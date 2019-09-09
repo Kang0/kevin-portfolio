@@ -14,16 +14,13 @@ class HeaderNavBar extends Component {
         return(
             <Container fluid>
                 <Grid style={{height: '5vh'}} padded>
-                    <Grid.Column width={3}>
+                    <Grid.Column width={8}>
                             <Icon name="linkedin" size="large" />
                             <Icon name="github" size="large" />
                             <Icon name="facebook" size="large" />
                             <Icon name="medium" size="large" />
                     </Grid.Column>
-                    <Grid.Column width={10}>
-                        <Image src="https://i.imgur.com/ORGXDR2.png" centered size="medium" fluid />
-                    </Grid.Column>
-                    <Grid.Column width={3} align="right">
+                    <Grid.Column width={8} align="right">
                         <p>Home // Skills // Projects // Experience</p>
                     </Grid.Column>
                 </Grid>

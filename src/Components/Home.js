@@ -5,38 +5,17 @@ import 'semantic-ui-css/semantic.min.css'
 class Home extends Component {
     render(){
 
-        const headerMargin = {
-            marginLeft: '300px'
-        }
-
-        const imageMargin = {
-            marginLeft: '25vh'
-        }
-
-        const textMargin = {
-            marginLeft: '300px',
-            fontSize: '6em'
-        }
-
         return(
-            <div style={{marginTop: '30vh'}}>
-                <Grid>
-                    <Grid.Row columns={2}>
-                        <Grid.Column width={4}>
-                            <Image src="https://i.imgur.com/msfHhhH.jpg" circular size="medium" style={imageMargin} />
-                        </Grid.Column>
-                        <Grid.Column width={12} style={{marginTop: '10vh'}}>
-                            <h1 style={textMargin}>I'm Kevin Kang</h1>
-                            <br></br>
-                            <h2 style={textMargin}>Fullstack Web Developer</h2>
-                        </Grid.Column>
+            <div style={{height: '100vh'}}>
+                <Grid textAlign='center'>
+                    <Grid.Row>
+                        <Image src="/portfolio-header.png" size="medium" />
                     </Grid.Row>
                     <Grid.Row>
-                        <Grid.Column centered style={{marginTop: '10vh'}}>
-                            <Container textAlign='center'>
-                                <Icon name="angle double down" size="massive" textAlign="center" />
-                            </Container>
-                        </Grid.Column>
+                        <h1>My name is Kevin Kang</h1>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <h1>Front-End Web developer</h1>
                     </Grid.Row>
                 </Grid>
             </div>
