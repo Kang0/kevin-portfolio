@@ -9,7 +9,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 WebFont.load({
     google: {
-        families: ['Raleway', 'sans-serif']
+        families: ['Raleway', 'Merriweather', 'sans-serif']
     }
 })
 

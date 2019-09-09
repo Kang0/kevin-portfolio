@@ -6,13 +6,12 @@ class HeaderNavBar extends Component {
     contextRef = createRef()
     render(){
 
-        const dynamicImage = {
-            maxWidth: '100%',
-            height: 'auto',
+        const navbarColor = {
+            backgroundColor: 'gray'
         }
 
         return(
-            <Container fluid>
+            <Container fluid style={navbarColor}>
                 <Grid style={{height: '5vh'}} padded>
                     <Grid.Column width={8}>
                             <Icon name="linkedin" size="large" />
